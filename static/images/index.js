@@ -1,0 +1,1 @@
+export const ItemHeader = require('./item-header.png')
