@@ -1,4 +1,5 @@
 html, body {
+    font-size: 16px;
     color: #d63c28;
     padding: 0;
     margin: 0;
@@ -21,6 +22,21 @@ a {
 
 * {
   	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "kaori";
+    src: url("../fonts/KaoriGel.ttf")
+}
+
+@font-face {
+    font-family: "db";
+    src: url("../fonts/DB\ Adman\ X\ Li.ttf")
+}
+
+@font-face {
+    font-family: "hiragano";
+    src: url("../fonts/Hiragino\ Sans\ GB\ W6.ttc")
 }
 
 .container {
@@ -56,4 +72,9 @@ a {
     .container {
         max-width: 1140px;
     }
+}
+
+.banner-wrapper {
+    width: calc(100% * 4 / 7);
+    margin: auto;
 }

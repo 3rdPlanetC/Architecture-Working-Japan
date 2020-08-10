@@ -1,0 +1,50 @@
+.content_1 {
+    display: flex;
+    padding: 2rem 6rem;
+}
+
+.content_1_image {
+    flex-basis: 50%;
+}
+
+.content_1_text {
+    flex-basis: 50%;
+    font-weight: bold;
+    font-family: "db";
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+
+.content_1_h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+.content_1_p {
+    text-indent: 4rem;
+}
+
+.content_2 {
+    display: flex;
+    padding: 1rem 6rem;
+}
+
+.content_2_image {
+    width: 100%;
+}
+
+.content_3 {
+    padding: 1rem 6rem;
+}
+
+.content_3_text {
+    font-family: "db";
+    font-size: 2rem;
+    font-weight: bold;
+    text-indent: 5rem;
+    padding: 0 2rem;
+}
+
+.content_4 {
+    padding: 1rem 6rem;
+}

@@ -1,0 +1,35 @@
+.content_1 {
+    font-family: "db";
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    padding: 0 5rem;
+}
+
+.content_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+.content_3 {
+    width: calc(100% * 4 / 7);
+    margin: auto;
+}
+
+.iconLeft {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 3.5rem 0;
+}
+
+.text {
+    text-align: center;
+    padding: 2rem;
+}
+
+.iconRight {
+
+    padding: 3.5rem 0;
+}

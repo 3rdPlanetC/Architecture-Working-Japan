@@ -1,8 +1,11 @@
-export default props => {
+// css
+import styles from './styles/index.module.css'
+
+export default function Main(props) {
     // props
-    const { children, className } = props
+    const { children } = props
     return (
-        <main className={className}>
+        <main className={styles.main}>
             {children}
         </main>
     )

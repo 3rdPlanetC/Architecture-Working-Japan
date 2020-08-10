@@ -1,0 +1,37 @@
+.content_1 {
+    background-image: url(/static/images/photos-content-image-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    font-family: "db";
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 8rem 15rem;
+    margin: 1rem 0rem;
+    text-indent: 5rem;
+    text-align: center;
+}
+
+.content_2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_2_image {
+    margin-top: 1rem;
+}
+
+.content_3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_3_image {
+    margin-top: 1rem;
+}
+
+.content_4 {
+    padding: 1rem 6rem;
+}
